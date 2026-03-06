@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --react-blue: #61dafb;
+  --zerops-purple: #6d28d9;
+  --bg: #0f0f23;
+  --surface: #1a1a2e;
+  --border: #2d2d4e;
+  --text: #e2e8f0;
+  --text-muted: #94a3b8;
+  --green: #4ade80;
+  --radius: 8px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#root {
+  width: 100%;
+  max-width: 680px;
+}
