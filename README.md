@@ -23,7 +23,7 @@ The main application configuration file you place at the root of your repository
 # Two setups: 'prod' for optimized static builds, 'dev' for SSH development.
 zerops:
 
-  # ── Production / Stage ───────────────────────────────────────────────────
+  # Production / Stage
   - setup: prod
     build:
       # Build with Node.js (npm/npx), serve with Nginx.
@@ -61,7 +61,7 @@ zerops:
       # so React Router and other client-side routers work out of the box.
       base: static
 
-  # ── Development (SSH workspace) ──────────────────────────────────────────
+  # Development (SSH workspace)
   - setup: dev
     build:
       base: nodejs@22
@@ -88,5 +88,4 @@ zerops:
       # The developer SSHs in and starts their own dev server.
       start: zsc noop --silent
 ```
-
 <!-- #ZEROPS_EXTRACT_END:integration-guide# -->
