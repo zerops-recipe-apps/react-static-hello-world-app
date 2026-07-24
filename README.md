@@ -1,7 +1,7 @@
 # React Hello World Recipe App
 
 <!-- #ZEROPS_EXTRACT_START:intro# -->
-A minimal React + Vite + TypeScript app deployed as a static site on [Zerops](https://zerops.io) — built by Node.js, served by Nginx, with a build-time environment variable demo showing how static deployments consume configuration.
+A minimal React 19 + Vite + TypeScript app deployed as a static site on [Zerops](https://zerops.io) — built by Node.js, served by Nginx, with a build-time environment variable demo showing how static deployments consume configuration.
 Used within [React Hello World recipe](https://app.zerops.io/recipes/react-hello-world) for [Zerops](https://zerops.io) platform.
 <!-- #ZEROPS_EXTRACT_END:intro# -->
 
