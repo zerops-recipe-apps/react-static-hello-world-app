@@ -1,6 +1,6 @@
 # react-static-hello-world-app
 
-Minimal React 18 + Vite + TypeScript app built by Node.js and served as static files by Zerops Nginx with built-in SPA fallback.
+Minimal React 19 + Vite + TypeScript app built by Node.js and served as static files by Zerops Nginx with built-in SPA fallback.
 
 ## Zerops service facts
 
@@ -21,3 +21,4 @@ Minimal React 18 + Vite + TypeScript app built by Node.js and served as static f
 
 - `VITE_APP_ENV` is baked into the bundle at build time; all client-side config must use `VITE_*` vars set under prod `build.envVariables`.
 - Prod build uses `npm install` (not `npm ci`) — Alpine musl needs platform-specific Rollup binaries resolved by npm.
+- TypeScript is pinned to 5.9.x for stable `tsc -b` with Vite.
