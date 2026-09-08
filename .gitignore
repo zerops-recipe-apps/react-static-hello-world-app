@@ -4,9 +4,6 @@ node_modules/
 # Build output
 dist/
 
-# Lockfile regenerated per platform (Alpine musl vs local glibc Rollup binaries)
-package-lock.json
-
 # Environment
 .env
 .env.*
