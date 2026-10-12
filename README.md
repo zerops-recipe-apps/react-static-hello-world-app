@@ -29,7 +29,7 @@ zerops:
       # Build with Node.js (npm/npx), serve with Nginx.
       # The build container compiles the React app into static HTML/CSS/JS
       # — Node.js is NOT present at runtime.
-      base: nodejs@22
+      base: nodejs@24
 
       # Bake the environment name into the JS bundle at build time.
       # Static deployments have no runtime process, so all env config must
@@ -64,7 +64,7 @@ zerops:
   # Development (SSH workspace)
   - setup: dev
     build:
-      base: nodejs@22
+      base: nodejs@24
       os: ubuntu
 
       buildCommands:
@@ -81,7 +81,7 @@ zerops:
     run:
       # Node.js runtime so the developer can run 'npm run dev' via SSH.
       # Nginx is NOT used here — the Vite dev server handles requests.
-      base: nodejs@22
+      base: nodejs@24
       os: ubuntu
 
       # Keep the container alive without starting any server.
